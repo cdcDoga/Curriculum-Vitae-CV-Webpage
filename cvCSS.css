@@ -1,0 +1,101 @@
+﻿
+body{
+	background-position: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.container{
+	padding-top: 3em
+}
+
+
+/* first column */
+.social a {
+  font-size: 1.5rem;
+  padding-right: .1rem;
+  padding-left: .1rem;
+  color: #5c5c5c;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+.fa-twitter:hover {
+  color: #00aced;
+}
+.fa-google-plus-g:hover {
+  color: #dd4b39;
+}
+.fa-instagram:hover {
+  color: #993300;
+}
+.fa-youtube:hover {
+  color: #bb0000;
+}
+.fa-linkedin:hover {
+  color: #476bb8;
+}
+
+
+/* last column */
+.color{
+	height: 0.5rem;
+	margin: 2rem 0rem 2rem 0rem;
+	align-items: center;
+}
+
+#detail{
+	height: auto;
+}
+
+
+ul.education{
+	list-style-image: url('icon_graduate.svg');
+}
+
+ul.experience{
+	list-style-image: url('icon_industry.svg');
+}
+
+ul.projects{
+	list-style-image: url('icon_robot.svg');
+}
+
+ul.skills{
+	list-style-image: url('icon_thumbs_up.svg');
+}
+
+ul.certificate{
+	list-style-image: url('icon_award.svg');
+}
+
+ul.reference{
+	list-style-image: url('icon_comment.svg');
+}
+
+
+/* .js document.querySelector("#id").style.backgroundColor */
+.red{
+	color: #ed1212;
+}
+.orange{
+	color: #ed7812;
+}
+.yellow{
+	color: #edd012;
+}
+.green{
+	color: #12ed50;
+}
+.blue{
+	color: #1292ed;
+}
+.purple{
+	color: #be12ed;
+}
+.indigo{
+	color: #073B4C;
+}
